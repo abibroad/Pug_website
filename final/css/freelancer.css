@@ -397,3 +397,10 @@ a:focus, a:hover, a:active {
 .googleform {
  text-align: center;
  }
+
+ .meet {
+   font-weight:700;
+   font-family: Raleway;
+   text-align: center;
+   font-size: 20px;
+   }
