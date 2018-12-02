@@ -382,3 +382,15 @@ a:focus, a:hover, a:active {
   background-color: #1a252f;
   border-color: #1a252f;
 }
+
+.snow{
+   background-image:
+           url(https://i.imgur.com/uYjnk8N.png),
+           url(https://i.imgur.com/iAGD6MA.png),
+           url(https://i.imgur.com/hIJDjbg.png);
+   animation: snow 30s linear infinite;
+}
+@keyframes snow {
+    0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+    100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+}
